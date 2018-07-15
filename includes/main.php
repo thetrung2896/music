@@ -105,5 +105,16 @@
 		";
 		return mysql_query($qr);
 	}
+	function phantrang($id_nation, $from, $so)
+	{
+		$qr="
+			SELECT * FROM nation inner join song
+			on song.id_national = nation.id_nation
+			WHERE id_nation=$id_nation
+			ORDER BY view DESC
+			Limit $from,$so
+		";
+		return mysql_query($qr);
+	}
 
 ?>

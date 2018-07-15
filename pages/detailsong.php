@@ -21,7 +21,7 @@
                     </div>
                     <style class="zplayer-style">.song-albumbg{width:217px;float:left!important;z-index:5!important;position:absolute;margin:-3px 0 0 -3px;top:4px;left:5px;transform:scale(.85)}.album-bg{position:relative;border-radius:100%;overflow:hidden;width:160px;height:160px}.album-bg img{height:100%;left:50%;position:absolute;transform:translateX(-50%)}#rotate-bg{animation:rotate-bg 15s infinite;animation-timing-function:linear}#rotate-bg.paused{animation-play-state:paused;-webkit-animation-play-state:paused}@keyframes rotate-bg{to{transform:rotate(1turn)}}</style>
                   </div>
-                      <video style="background-image: url(assets/image/banner1.jpg); background-size: content;" controls loop width="730" height="210">
+                      <video  style="background-image: url(assets/image/banner1.jpg); background-size: contain;" controls loop width="730" height="210">
                       <source src="assets/audios/<?php echo $row_song['linkmp3']?>" type="audio/mpeg": codecs="theora, vorbis"/>
                       </video>
               </div>

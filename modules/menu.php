@@ -51,7 +51,7 @@
                   <?php
               while($id_nation = mysql_fetch_array($nation)){
                   ?>
-                <li><a href="index.php?page=rank&id_nation=<?php echo $id_nation['id_nation']?>"><?php echo $id_nation['namnation']?></a></li>
+                <li><a href="index.php?page=rank&id_nation=<?php echo $id_nation['id_nation']?>&trang=1"><?php echo $id_nation['namnation']?></a></li>
                 <?php
                 }
                 ?>

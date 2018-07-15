@@ -10,7 +10,7 @@
 
               <p>Người chịu trách nhiệm nội dung: Ông Nguyễn Thế Trung - Email: thetrung.2896@gmail.com - Tel: 0165 99 66 31</p>
 
-              <p>Giấy phép MXH số 499/GP-BTTTT do Bộ Thông Tin và Truyền thông cấp ngày 28/09/2015.</p>
+              <p>Giấy phép MXH số 6969/GP-BTTTT do Bộ Thông Tin và Truyền thông cấp ngày 28/09/2018.</p>
               
             </div><!-- /.content -->
           </div><!-- /.text -->
